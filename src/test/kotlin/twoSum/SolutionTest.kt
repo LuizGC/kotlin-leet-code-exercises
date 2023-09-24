@@ -5,7 +5,7 @@ import kotlin.test.assertContentEquals
 
 class SolutionTest {
 
-    val solution = Solution()
+    private val solution = Solution()
     @Test
     fun firstScenario() {
         val nums = intArrayOf(2,7,11,15)
